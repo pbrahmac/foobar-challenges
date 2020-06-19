@@ -1,5 +1,5 @@
 def exercise3(l):
-    return sorted(l, key=lambda x: tuple(map(int, x.split("."))))
+    return l.sort(l, key=lambda x: tuple(map(int, x.split("."))))
 
 if __name__ == "__main__":
     print("Exercise #3: ") 
